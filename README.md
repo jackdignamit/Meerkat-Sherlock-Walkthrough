@@ -209,7 +209,7 @@ The attacker has successfully accessed credentials and begins **remote code exec
 
 The attacker sends a **crafted request to Bonita's API** with the command `cmd=cat%20/etc/passwd` to test for command execution on the target server of **forela.co.uk** on port **8080**.
 
-On Wireshark, we can view more GET request details to see what other commands were used by navigating to Statistics > HTTP > Requests.
+On Wireshark, we can view more GET request details to see what other commands were used by navigating to `Statistics > HTTP > Requests`.
 
 <img width="824" height="778" alt="1_3bWnl8lvcCYBiDs2HsnKyA" src="https://github.com/user-attachments/assets/3fa47da1-59a9-4700-a9f8-d109fc98af35" />
 
@@ -224,11 +224,11 @@ From here, we see that the attacker downloaded a file from **pastes.io**.
 ## Task 8: Please provide the filename of the public key used by the attacker to gain persistence on our host.
 The attacker downloaded the file from a link on pastes.io, which can be directly accessed using a web browser.
 
-Enter https://pastes.io/raw/bx5gcr0et8 into your VM web browser to see the contents of the file.
+Enter `https://pastes.io/raw/bx5gcr0et8` into your VM web browser to see the contents of the file.
 
 <img width="600" height="208" alt="1_IXvC6yV173MxBLBzkoGczQ" src="https://github.com/user-attachments/assets/23b0f936-32ec-4324-9787-a0922873f721" />
 
-The attacker's payload on pastes.io copies the contents of the file **hffgra4unv** into the authorized key file on the host.
+The attacker's payload on **pastes.io** copies the contents of the file **hffgra4unv** into the authorized key file on the host.
 
 <img width="1000" height="147" alt="1_T5mg2v0dlBNT8mzgjmSHQg" src="https://github.com/user-attachments/assets/b73ce8ac-1ec1-462b-ac3d-cacd9c64d70a" />
 
