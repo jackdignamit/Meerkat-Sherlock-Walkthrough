@@ -1,4 +1,4 @@
-# Meerkat Sherlock | HackTheBox Walkthrough
+# Meerkat Sherlock | Hack The Box Walkthrough
 > ## Analyzing Bonitasoft Server Compromise Using Wireshark PCAPs and Log Data
 
 ### [>>GOOGLE DOC VERSION <<](https://docs.google.com/document/d/1ZtUvfwmuX1UEr5ZJ6oK2zr_UHzvrzhYLuybwrSNTD70/edit?usp=sharing) (Originally posted on Medium.com)
